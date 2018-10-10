@@ -4,10 +4,10 @@ public class Aluno {
 
     private String nome;
     private String email;
-    private int matricula;
+    private String matricula;
 
 
-    Aluno(String name, String email, int registration) {
+    Aluno(String name, String email, String registration) {
         this.nome = name;
         this.email = email;
         this.matricula = registration;
